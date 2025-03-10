@@ -1,0 +1,17 @@
+.avatar {
+    /* descomprimindo o box-sizing: border-box com box initial
+    box-sizing: initial; */
+
+    /* descomprimindo box-sizin: border-box com calculo 
+    usando a soma das bordas para achar o número para somar*/
+    height: calc(3rem + 12px);
+    width: calc(3rem + 12px);
+    border-radius: 8px;
+}
+
+.avatarWithBorder {
+    width: calc(3rem + 12px);
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+}
