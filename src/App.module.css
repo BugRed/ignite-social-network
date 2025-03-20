@@ -1,0 +1,26 @@
+/* Estilos para o componente App */
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  /* mudando o tamanho da 
+    fonte para se ajustar 
+    a telas menores */
+  html {
+    font-size: 87.5%;
+  }
+
+  /*Mudando o grid para 1 unica coluna*/
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
